@@ -1,0 +1,17 @@
+div i ,button{
+    padding-right:20px;
+}
+.card{
+    background-color:rgb(4, 4, 53);
+    border:solid grey 2px;
+    position: relative;
+    top:30px;
+}
+*{
+    list-style-type: none;
+}
+
+.footer{
+    position: relative;
+    top: 30px;
+}
