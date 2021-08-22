@@ -1,0 +1,7 @@
+.card{
+    background-color:rgb(4, 4, 53);
+    border:solid grey 2px;
+    position: relative;
+    top:30px;
+    height: 450px;
+}
