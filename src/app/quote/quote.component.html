@@ -15,10 +15,10 @@
                 <p class="quote">"{{quote.quote}}"</p>
                 <app-quote-detail [quote]='quote' (isComplete)='deleteQuote($event,i)'></app-quote-detail>
                 <div d-flex>
-                    <i class="fas fa-thumbs-up" (click)="upvote(i)">
+                    <i class="fa fa-thumbs-up" (click)="upvote(i)">
                         <p> Upvotes:{{quote.upvotes}} </p>
                     </i>
-                    <i class="fas fa-thumbs-down" (click)="downvote(i)">
+                    <i class="fa fa-thumbs-down" (click)="downvote(i)">
                         <p> Downvotes:{{quote.downvotes}} </p>
                     </i>
                 </div>
@@ -42,9 +42,9 @@
           </div>
       
           <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-            <li class="ms-3"><a class="text-muted" href="#"><i class="fab fa-instagram "></i></a></li>
-            <li class="ms-3"><a class="text-muted" href="#"></a><i class="fab fa-twitter "></i></li>
-            <li class="ms-3"><a class="text-muted" href="#"></a><i class="fab fa-facebook-f"></i></li>
+            <li class="ms-3"><a class="text-muted" href="#"><i class="fa fa-instagram "></i></a></li>
+            <li class="ms-3"><a class="text-muted" href="#"></a><i class="fa fa-twitter "></i></li>
+            <li class="ms-3"><a class="text-muted" href="#"></a><i class="fa fa-facebook-f"></i></li>
           </ul>
         </footer>
       </div>
